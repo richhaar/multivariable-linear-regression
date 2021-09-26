@@ -2,7 +2,6 @@ import numpy as np
 import csv
 import mvr
 
-
 class Main:
 
     filename  = "antelopestudy.csv"
@@ -21,5 +20,3 @@ class Main:
     # Perform the regression
     r = mvr.MultiVariableRegression(data, headers, estimates=prediction_data)
     r.plotData()
-    
-
